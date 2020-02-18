@@ -100,7 +100,7 @@ function createEngineer () {
         teamMembers.push(engineer);
         addMember();
         // test to console log manager was added to teamMembers -- TEST IS GOOD
-        console.log(teamMembers);
+        // console.log(teamMembers);
     });
 
 }
@@ -132,7 +132,8 @@ function createIntern () {
         const intern = new Intern(answers.name, parseInt(answers.id), answers.email, answers.school);
         teamMembers.push(intern);
         addMember();
-        console.log(teamMembers);
+         // test to console log manager was added to teamMembers -- TEST IS GOOD
+        // console.log(teamMembers);
     });
 
 }
